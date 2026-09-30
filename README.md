@@ -25,9 +25,9 @@ Web Developer & UI/UX Designer with a background in Cybersecurity and Ethical Ha
 |---------|------|------|
 | OUP Online Order | [Live](https://online-order-1.onrender.com) | [GitHub](https://github.com/janetakinyi/online-order) |
 | Word Temple Church | [Live](https://wordtemple-website-aoc4.onrender.com) | [GitHub](https://github.com/janetakinyi/wordtemple-website) |
-| Abigail Graduation Gift | [Live](https://abigail-graduation.onrender.com) | [GitHub](https://github.com/janetakinyi/abigail-graduation-gift) |
+| echo-gift | [Live](https://abigail-graduation.onrender.com) | [GitHub](https://github.com/janetakinyi/abigail-graduation-gift) |
 
-## 🚀 Run Locally
+## 🚀 Run Locallyecho-gift
 
 ```bash
 npm install
