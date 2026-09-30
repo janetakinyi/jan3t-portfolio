@@ -23,14 +23,14 @@ const projects = [
   },
   {
     number: "03",
-    title: "Abigail Graduation Gift",
-    subtitle: "Interactive Graduation Experience",
+    title: "Echo Gift",
+    subtitle: "Interactive Digital Gift Experience",
     description:
-      "A personalized interactive digital experience built to celebrate a graduation — combining animation, multimedia, and heartfelt content.",
+      "A personalized interactive web experience combining multimedia, animation, and custom content to create a memorable digital celebration.",
     tech: ["HTML", "CSS", "JavaScript"],
     role: "UI/UX Design · Frontend Development",
     demo: "https://abigail-graduation.onrender.com",
-    github: "https://github.com/janetakinyi/abigail-graduation-gift",
+    github: "https://github.com/janetakinyi/echo-gift",
   },
 ];
 
@@ -77,20 +77,14 @@ function Projects() {
               </div>
 
               <div className="mt-auto flex gap-3">
-                {project.demo !== "#" ? (
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="rounded-full bg-cyan-400 px-5 py-2 text-sm font-semibold text-black hover:bg-cyan-300"
-                  >
-                    Live Demo
-                  </a>
-                ) : (
-                  <span className="rounded-full bg-white/10 px-5 py-2 text-sm text-gray-500">
-                    Coming Soon
-                  </span>
-                )}
+                <a
+                  href={project.demo}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-full bg-cyan-400 px-5 py-2 text-sm font-semibold text-black hover:bg-cyan-300"
+                >
+                  Live Demo
+                </a>
                 <a
                   href={project.github}
                   target="_blank"
